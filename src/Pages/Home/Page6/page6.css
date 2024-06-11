@@ -1,0 +1,64 @@
+.pageHeader {
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+.horizontalLine6 {
+  margin-left: 50%;
+  width: 1px;
+  height: 27px;
+  background-color: black;
+  transform: rotate(90deg);
+  font-size: 18px;
+  opacity: 1;
+}
+.p6Title {
+  font-size: 42px;
+}
+.p6Tagline {
+  color: #bcbcbc;
+}
+
+.clientImg {
+  border: solid;
+  border-color: #031d8e;
+  padding: 5px;
+  border-radius: 100px;
+  margin-bottom: 26px;
+}
+.clientName {
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+.clientRole {
+  font-size: 16px;
+  color: #bcbcbc;
+}
+.clientReview {
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+/* .arrowControls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+} */
+.prevArrow,
+.nextArrow {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.doubleQuotesStart {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.doubleQuotesEnd {
+  text-align: right;
+  margin-top: 10px;
+}

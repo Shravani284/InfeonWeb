@@ -1,0 +1,69 @@
+.wrapper5 {
+  background-color: #20252d;
+}
+.page5 {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.custOnBoarding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.pg5Title {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+.spanBold {
+  font-weight: bold;
+}
+.p5tagline {
+  width: 371px;
+  margin-bottom: 45px;
+  opacity: 0.53;
+}
+.custOnBoardingCards {
+  width: 68%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardCSS {
+  width: 304px;
+  background-color: #20252d !important;
+  border: solid;
+  border-color: white;
+  padding: 39px 28px;
+  margin: 8px;
+  border-width: 1px;
+}
+.lt {
+  border-radius: 20px 20px 0px 20px !important;
+}
+.rt {
+  border-radius: 20px 20px 20px 0px !important;
+}
+.rb {
+  border-radius: 20px 0px 20px 20px !important;
+}
+.lb {
+  border-radius: 0px 20px 20px 20px !important;
+}
+.iconCss {
+  margin-bottom: 7px;
+}
+.cardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 27px;
+  color: white;
+}
+.subPointsList {
+  list-style: none !important;
+  line-height: 30px !important;
+  font-family: "Sofia Pro Light" !important;
+  color: white;
+}

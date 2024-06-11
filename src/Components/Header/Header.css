@@ -1,0 +1,50 @@
+.appBar {
+  background-color: rgba(255, 255, 255, 0) !important;
+  margin-top: 40px;
+}
+.headerContainer {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.headerNavigators {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.contactUs {
+  border: solid 1px #fec62e;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+.contactUsEmail {
+  padding: 0px !important;
+}
+.emailLogo {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 5px;
+  color: black;
+  background-color: #fec62e;
+  border-radius: 25px;
+}
+.contactUsPhNo {
+  padding: 0px 12px 0px 5px !important;
+  color: white !important;
+}
+
+/* .contactUsPhNo */
+.phnoLogo {
+  width: 40px !important;
+  height: 40px !important;
+  color: white !important;
+  padding: 5px;
+  margin-right: 3px !important;
+}

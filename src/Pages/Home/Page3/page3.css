@@ -1,0 +1,78 @@
+.wrapper3 {
+  background-color: #031d8e;
+  width: 100vw;
+}
+
+.page3 {
+  color: #ffffff;
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.industriesImg {
+  width: 50%;
+  max-height: 435px;
+}
+.content {
+  text-align: left;
+}
+.header {
+  margin-bottom: 40px;
+}
+.DrivDigiTransf {
+  font-size: 16px;
+}
+.industriesTitle {
+  font-size: 42px;
+}
+.industriesSubTitle {
+  opacity: 0.5;
+}
+
+.horizontalLine3 {
+  margin-left: 10px;
+  width: 1px;
+  height: 20px;
+  background-color: white;
+  transform: rotate(90deg);
+  font-size: 18px;
+}
+.industriesList {
+  margin-bottom: 40px;
+}
+
+.ol {
+  column-count: 2 !important;
+}
+
+.two-column-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.two-column-list li {
+  background: url("/src/assets/Images/infeonIcon.png") 0 50% no-repeat;
+  padding-left: 30px;
+  list-style-type: none;
+  line-height: 35px;
+}
+.expertise {
+  padding: 24px 25px 35px 30px;
+  background: #02177e;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.expertiseTitle {
+  margin-bottom: 18px;
+}
+.expertiseList > ul {
+  column-count: 2;
+  gap: 10px;
+  list-style-type: none;
+  line-height: 37px;
+  font-size: 16px;
+  font-family: "Sofia Pro Light";
+}

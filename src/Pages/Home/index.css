@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /* height: 100vh; */
+}
+/* .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+
+.content {
+  flex: 1;
+  overflow-y: auto; /* Enable scrolling for content */
+}
+
+.scroller {
+  position: fixed;
+  top: 50%;
+  right: 20px; /* Adjust as needed */
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure dots appear above content */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dot.active {
+  border-color: #fff;
+  border-width: 1px;
+  padding: 1px;
+  border-style: solid;
+  background-color: #0d3efb;
+}

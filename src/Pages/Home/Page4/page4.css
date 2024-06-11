@@ -1,0 +1,120 @@
+.headline {
+  margin-top: 120px;
+}
+.horizontalLine4 {
+  margin-left: 50%;
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(90deg);
+  font-size: 18px;
+  opacity: 1;
+}
+
+.carouselTitle {
+  color: #20252d;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.spanCSS {
+  font-weight: bold;
+  color: #0d3efb;
+}
+.carouselNavigators {
+  display: flex;
+  justify-content: end;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.industryListWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.industryList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* width: 80% !important; */
+  /* min-height: 375px; */
+}
+
+.industryCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 17px;
+}
+
+.imgGradient {
+  position: relative;
+  width: 100%;
+}
+
+.imgGradient img {
+  display: block;
+  width: 100%;
+}
+.imgGradient::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66%, #000000 100%);
+  border-radius: 20px;
+  pointer-events: none;
+}
+.industryNameText {
+  padding: 0px 24px 17px 24px;
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  color: #ffffff;
+}
+.industryDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.indName {
+  font-size: 16px;
+  font-family: "Sofia Pro Light";
+}
+.indType {
+  font-size: 22px;
+  font-weight: bold;
+}
+.page4Btn {
+  border-radius: 4px !important;
+  padding: 13px 16px !important;
+  background-image: linear-gradient(90deg, #0d3efb 0%, #031d8e 100%);
+  opacity: 1;
+  text-align: center;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Sofia Pro Regular" !important;
+  text-transform: capitalize !important;
+}
+.page4Btn > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page4Btn > div > div {
+  padding-right: 8px;
+}
